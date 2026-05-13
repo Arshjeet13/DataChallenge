@@ -1,0 +1,33 @@
+# Data files (too large for GitHub)
+data/
+*.parquet
+*.csv
+
+# Generated dashboards / HTML outputs
+*.html
+
+# Archives
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Scratch / duplicate notebooks
+**/Untitled*.ipynb
+**/*copy*.ipynb
+**/* copy*.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
